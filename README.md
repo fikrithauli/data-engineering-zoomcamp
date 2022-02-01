@@ -19,7 +19,6 @@
 * Setting up Airflow locally
 * Ingesting data to GCP with Airflow
 * Ingesting data to local Postgres with Airflow
-* Moving data from AWS to GCP (Transfer service)
 * Homework
 
 [More details](week_2_data_ingestion)
