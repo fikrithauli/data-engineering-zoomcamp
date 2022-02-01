@@ -9,7 +9,8 @@ from airflow.operators.python import PythonOperator
 from datetime import datetime
 from google.cloud import storage
 
-from week_2_data_ingestion.airflow.dags_new.data_ingestion_taxi_trip import BUCKET, PROJECT_ID
+PROJECT_ID = "dtc-de-bootcamp"
+BUCKET = "dtc_data_lake_dtc-de-bootcamp"
 
 dataset_file = "fhv_tripdata_{{ data_interval_start.strftime(\'%Y-%m\') }}.csv"
 dataset_url = f"https://nyc-tlc.s3.amazonaws.com/trip+data/{dataset_file}"
