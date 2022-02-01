@@ -14,11 +14,8 @@ In this homework, we will:
 * Create a new dag for transferring the FHV data
 * Create another dag for the Zones data
 
-
-If you don't have access to GCP, you can do that locally and ingest data to Postgres 
-instead. If you have access to GCP, you don't need to do it for local Postgres -
-only if you want.
-
+## Dags Created
+<img src="img/dag_homework.png">
 
 
 ## Question 1: Start date for the Yellow taxi data (1 point)
