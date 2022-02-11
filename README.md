@@ -23,4 +23,18 @@
 
 [More details](week_2_data_ingestion)
 
-### Week 3: Data Warehouse (Progress)
+### Week 3: Data Warehouse
+
+Goal: Structuring data into a Data Warehouse
+
+* Data warehouse (BigQuery) 
+    * What is a data warehouse solution
+    * What is big query, why is it so fast, Cost of BQ,  
+    * Partitoning and clustering, Automatic re-clustering 
+    * Pointing to a location in google storage
+    * Loading data to big query & PG -- using Airflow operator?
+    * BQ best practices
+    * Misc: BQ Geo location, BQ ML 
+    * Alternatives (Snowflake/Redshift)
+
+### [Week 4: Analytics engineering] (Progress)
