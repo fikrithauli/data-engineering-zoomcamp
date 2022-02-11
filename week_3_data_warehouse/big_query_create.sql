@@ -12,6 +12,13 @@ OPTIONS (
     uris = ['gs://dtc_data_lake_dtc-de-bootcamp/raw/yellow_tripdata_2019-*.parquet', 'gs://dtc_data_lake_dtc-de-bootcamp/raw/yellow_tripdata_2020-*.parquet']
 );
 
+-- Create green_trip table from Google Cloud Storage
+CREATE OR REPLACE EXTERNAL TABLE `dtc-de-bootcamp.trips_data_all.external_green_tripdata`
+OPTIONS (
+    format = 'parquet',
+    uris = ['gs://dtc_data_lake_dtc-de-bootcamp/raw/green_tripdata_2019-*.parquet', 'gs://dtc_data_lake_dtc-de-bootcamp/raw/green_tripdata_2020-*.parquet']
+);
+
 -- Create zonez_lookup table from Google Cloud Storage
 CREATE OR REPLACE EXTERNAL TABLE `dtc-de-bootcamp.trips_data_all.external_zones_lookup`
 OPTIONS (
