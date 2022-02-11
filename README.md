@@ -37,4 +37,6 @@ Goal: Structuring data into a Data Warehouse
     * Misc: BQ Geo location, BQ ML 
     * Alternatives (Snowflake/Redshift)
 
+    [More details](week_3_data_warehouse)
+
 ### [Week 4: Analytics engineering] (Progress)
