@@ -10,7 +10,6 @@ dim_zones AS (
     FROM {{ ref('dim_zones') }}
     WHERE Borough != 'Unknown'
 )
-
 SELECT 
     fhv_data.dispatching_base_num,
     fhv_data.pickup_datetime,
